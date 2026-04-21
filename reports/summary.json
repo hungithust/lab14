@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "version": "Agent_V2_Optimized",
+    "total": 50,
+    "timestamp": "2026-04-21 17:40:55"
+  },
+  "metrics": {
+    "avg_score": 4.6996,
+    "hit_rate": 0.94,
+    "agreement_rate": 0.9356,
+    "mrr": 0.9067,
+    "avg_latency_seconds": 1.7473,
+    "avg_cost_usd": 0.00629,
+    "error_rate": 0.0
+  },
+  "system": {
+    "batch_size": 5,
+    "pass_count": 49,
+    "fail_count": 1,
+    "token_usage": {
+      "prompt_tokens": 52545,
+      "completion_tokens": 10709,
+      "total_tokens": 63254,
+      "avg_tokens_per_case": 1265.08
+    },
+    "cost_report": {
+      "total_cost_usd": 0.314493,
+      "avg_cost_usd": 0.00629,
+      "estimated_cost_per_1k_cases_usd": 6.2899
+    },
+    "latency_report": {
+      "min_latency_seconds": 1.0214,
+      "avg_latency_seconds": 1.7473,
+      "max_latency_seconds": 3.4662
+    },
+    "runtime_seconds": 45.6746
+  }
+}
